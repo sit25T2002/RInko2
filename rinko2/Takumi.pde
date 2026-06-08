@@ -1,14 +1,15 @@
-float x = width / 2;
-float y = height / 2;
-int r = 180;
+float Tx = width / 2;
+float Ty = height / 2;
+int Tr = 180;
 
 void Takumi(){
-  fill(255, 10);
+  color c = get(width, 0);
+  fill(c);
   noStroke();
   rect(0, 0, 600, 400);
   noFill();
-  x = x + random(-2, 2);
-  y = y + random(-2, 2);
-  stroke(random(255), random(255), 255);
-  ellipse(x, y, r, r);
+  Tx = Tx + random(-20, 20);
+  Ty = Ty + random(-20, 20);
+  stroke(random(255), random(255), random(255));
+  ellipse(Tx, Ty, Tr, Tr);
 }
