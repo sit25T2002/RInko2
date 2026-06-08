@@ -10,7 +10,7 @@ void draw() {
   koizumi();
   mitsuru();
   nagano();
-  //Ryunosuke();
+  Ryunosuke();
   Takumi();
   
   iwataINIT();
