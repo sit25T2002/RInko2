@@ -1,14 +1,6 @@
 float t = 0;
 
-void setup() {
-  // キャンバスサイズ (w=400に対応)
-  size(400, 400);
-}
-
-void draw() {
-  // 背景色 (ほぼ黒)
-  background(9);
-  
+void nagano() {  
   // 線の色と透明度 (元の stroke(w, 96) は白の半透明に相当します)
   stroke(255, 96);
 

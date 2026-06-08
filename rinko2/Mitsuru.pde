@@ -11,7 +11,7 @@ void mitsuru() {
   // 背景に透明度を持たせて塗りつぶすことで、火花の「残像」を作る
   fill(0, 50);
   noStroke();
-  rect(0, 0, width, height);
+  //rect(0, 0, width, height);
 
   // ランダムに花火を打ち上げる（約2%の確率）
   if (random(1) < 0.02) {
