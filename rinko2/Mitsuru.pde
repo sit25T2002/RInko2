@@ -1,6 +1,8 @@
 ArrayList<Firework> fireworks;
 PVector gravity = new PVector(0, 0.15); // 重力の設定
 
+// 例えば
+
 void miInit() {
   fireworks = new ArrayList<Firework>();
 }
